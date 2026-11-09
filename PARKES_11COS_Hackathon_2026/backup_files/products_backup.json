@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1001,
+        "name": "Wireless Mouse",
+        "price": 29.99,
+        "category": "electronics",
+        "stock": 15,
+        "description": "Ergonomic wireless mouse with USB receiver."
+    },
+    {
+        "id": 1002,
+        "name": "Mechanical Keyboard",
+        "price": 89.99,
+        "category": "electronics",
+        "stock": 8,
+        "description": "Cherry MX Blue mechanical keyboard with RGB lighting."
+    },
+    {
+        "id": 1003,
+        "name": "USB-C Hub",
+        "price": 45.50,
+        "category": "electronics",
+        "stock": 12,
+        "description": "7-in-1 USB-C hub with HDMI and SD card slots."
+    },
+    {
+        "id": 2001,
+        "name": "Notebook A5",
+        "price": 8.99,
+        "category": "stationery",
+        "stock": 50,
+        "description": "Ruled A5 notebook with 200 pages."
+    },
+    {
+        "id": 2002,
+        "name": "Pencil Set 12pk",
+        "price": 5.50,
+        "category": "stationery",
+        "stock": 100,
+        "description": "12 colours of wooden graphite pencils."
+    },
+    {
+        "id": 2003,
+        "name": "Desk Lamp",
+        "price": 34.00,
+        "category": "electronics",
+        "stock": 20,
+        "description": "LED desk lamp with adjustable brightness and colour temperature."
+    },
+    {
+        "id": 3001,
+        "name": "Running Shoes",
+        "price": 120.00,
+        "category": "clothing",
+        "stock": 10,
+        "description": "Lightweight running shoes with cushioned soles."
+    },
+    {
+        "id": 3002,
+        "name": "Hoodie Black",
+        "price": 55.00,
+        "category": "clothing",
+        "stock": 25,
+        "description": "Warm cotton-polyester blend hoodie in black."
+    },
+    {
+        "id": 3003,
+        "name": "Backpack",
+        "price": 65.00,
+        "category": "clothing",
+        "stock": 15,
+        "description": "Water-resistant 25L backpack with laptop compartment."
+    }
+]

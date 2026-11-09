@@ -1,0 +1,13 @@
+home:
+nav bar up top for consistant and easy navigation
+welcome hero div and breif description of shop
+
+products:
+
+
+cart:
+nav bar up top with items in cart in center frame and
+checkout button below to take you to invoice page and store the invoice
+
+invoice:
+invoice center frame, no nav bar, button to take back to the store

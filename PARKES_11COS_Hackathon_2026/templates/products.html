@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Products</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <nav>
+        <!-- TODO: Build your navigation bar -->
+        <div class="left_nav">
+            <h2>All store</h2>
+        </div>
+        <div class="center_nav">
+            <a href="/products"><div class="button"><p>products</p></div></a>
+            
+        </div>
+        <div class="right_nav">
+            <a href="/cart"><div class="button"><p>Cart</p></div></a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Electronics</h1>
+        <div class="electronics_section">
+
+            {% for item in electronics %}
+                <form method="post">
+                    <div class="shop_item">
+                        <div class="item_text">
+                            <h2>{{ item.name }}</h2>
+                            <p>{{ item.description }}</p>
+                            <p>Price</p>
+                            <p>{{ item.price }}</p>
+                            <input id="item" name="item" type="hidden" value="{{ item.id }}">
+                            <button type="submit">add to cart</button>
+                        </div>
+                    </div>
+                </form>
+            {% endfor %}
+        </div>
+        <h1>clothing</h1>
+        <div class="clothing_section">
+            {% for item in clothing %}
+                <form method="post">
+                    <div class="shop_item">
+                        <div class="item_text">
+                            <h2>{{ item.name }}</h2>
+                            <p>{{ item.description }}</p>
+                            <p>Price</p>
+                            <p>{{ item.price }}</p>
+                            <input id="item" name="item" type="hidden" value="{{ item.id }}">
+                            <button type="submit">add to cart</button>
+                        </div>
+                    </div>
+                </form>
+            {% endfor %}
+        </div>
+        <h1>Stationary</h1>
+        <div class="stationary_section">
+            {% for item in stationary %}
+                <form method="post">
+                    <div class="shop_item">
+                        <div class="item_text">
+                            <h2>{{ item.name }}</h2>
+                            <p>{{ item.description }}</p>
+                            <p>Price</p>
+                            <p>{{ item.price }}</p>
+                            <input id="item" name="item" type="hidden" value="{{ item.id }}">
+                            <button type="submit">add to cart</button>
+                        </div>
+                    </div>
+                </form>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

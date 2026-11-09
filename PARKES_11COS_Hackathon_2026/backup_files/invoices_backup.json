@@ -1,0 +1,21 @@
+[
+    {
+        "invoice_id": 1,
+        "date": "2026-01-15",
+        "items": [
+            {
+                "product_id": 1001,
+                "name": "Wireless Mouse",
+                "price": 29.99,
+                "quantity": 1
+            },
+            {
+                "product_id": 2002,
+                "name": "Pencil Set 12pk",
+                "price": 5.50,
+                "quantity": 2
+            }
+        ],
+        "total": 40.99
+    }
+]

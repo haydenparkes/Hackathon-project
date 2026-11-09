@@ -1,0 +1,161 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav .button {
+    width: 160px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button p {
+    text-decoration: none;
+}
+
+.cart_main {
+    background-color: black;
+    width: 400px;
+    min-height: 600px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+
+.cart_main h1 {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+.cart_main .cart_item {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cart_amount {
+    margin-top: 16px;
+}
+
+.cart_main button {
+    width: 380px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.cart_items {
+    min-height: 370px;
+}
+
+.electronics_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.stationary_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.clothing_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.shop_item{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.invoice {
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 400px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.inv_text {
+    margin-left: 20px;
+}
+
+.total {
+    margin-left: 20px;
+}
+
+.item_text {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+table {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 400px;
+    padding-left: 90px;
+    border-radius: 30px;
+}
+
+.new_form {
+    background-color: black;
+    color: white;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ 

@@ -1,0 +1,99 @@
+[
+    {
+        "invoice_id": 1,
+        "date": "2026-01-15",
+        "items": [
+            {
+                "product_id": 1001,
+                "name": "Wireless Mouse",
+                "price": 29.99,
+                "quantity": 1
+            },
+            {
+                "product_id": 2002,
+                "name": "Pencil Set 12pk",
+                "price": 5.5,
+                "quantity": 2
+            }
+        ],
+        "total": 40.99
+    },
+    {
+        "invoice_id": 2,
+        "date": [
+            "2026-08-28"
+        ],
+        "items": [
+            {
+                "product_id": 2003,
+                "name": "Desk Lamp",
+                "price": 34.0,
+                "quantity": 2
+            },
+            {
+                "product_id": 1003,
+                "name": "USB-C Hub",
+                "price": 45.5,
+                "quantity": 1
+            },
+            {
+                "product_id": 1002,
+                "name": "Mechanical Keyboard",
+                "price": 89.99,
+                "quantity": 1
+            }
+        ],
+        "total": 203.49
+    },
+    {
+        "invoice_id": 3,
+        "date": [
+            "2026-11-09"
+        ],
+        "items": [
+            {
+                "product_id": 1003,
+                "name": "USB-C Hub",
+                "price": 45.5,
+                "quantity": 1
+            }
+        ],
+        "total": 45.5
+    },
+    {
+        "invoice_id": 4,
+        "date": [
+            "2026-11-09"
+        ],
+        "items": [
+            {
+                "product_id": 2003,
+                "name": "Desk Lamp",
+                "price": 34.0,
+                "quantity": 1
+            }
+        ],
+        "total": 34.0
+    },
+    {
+        "invoice_id": 5,
+        "date": [
+            "2026-11-09"
+        ],
+        "items": [
+            {
+                "product_id": 1003,
+                "name": "USB-C Hub",
+                "price": 45.5,
+                "quantity": 1
+            },
+            {
+                "product_id": 2003,
+                "name": "Desk Lamp",
+                "price": 34.0,
+                "quantity": 1
+            }
+        ],
+        "total": 79.5
+    }
+]

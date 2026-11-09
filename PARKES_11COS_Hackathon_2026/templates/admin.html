@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Home</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <nav>
+        <!-- TODO: Build your navigation bar -->
+        <div class="left_nav">
+            <h2>All store</h2>
+        </div>
+        <div class="center_nav">
+            <a href="/products"><div class="button"><p>products</p></div></a>
+            
+        </div>
+        <div class="right_nav">
+            <a href="/cart"><div class="button"><p>Cart</p></div></a>
+        </div>
+    </nav>
+
+    <table>
+        <th><h1>catagories</h1></th>
+        <th>delete</th>
+        {% for catagory in catagories %}
+        <tr>
+            <td><h2>{{ catagory }}</h2></td>
+            <td>
+                <form method="post">
+                    <input id="type" name="type" value="delete" type="hidden">
+                    <input name="catagory" id="catagory" value="{{ catagory }}" type="hidden">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <form method="post">
+        <div class="new_form">
+            <h2>Add catagory</h2>
+            <input type="hidden" name="type" id="type" value="add">
+            <input type="text" name="catagory" id="catagory">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+    
+</body>
+</html>
